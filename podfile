@@ -1,0 +1,12 @@
+platform:ios,’8.1'
+
+target 'HeliosUnitTest' do
+pod 'AFNetworking', '~> 2.6.3'
+pod 'SDWebImage', '~> 3.7.3'
+pod 'MJRefresh', '~> 3.0.7'
+pod 'MBProgressHUD', '~> 0.9.1'
+pod 'Masonry', '~> 0.6.3'
+target ''HeliosUnitTestTests' do
+        inherit! :search_paths
+    end
+end
